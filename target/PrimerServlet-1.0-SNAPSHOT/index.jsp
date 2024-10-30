@@ -39,7 +39,7 @@
          <fieldset>
              <form action="SvEliminar" method="POST">
                  <p>
-                     <label type="text" >Id</label><input type="text" name = "id">
+                     <label type="text" >Id: </label><input type="text" name = "id">
                  </p>
                  <button type ="submit"> Eliminar Usuario</button>
                  
