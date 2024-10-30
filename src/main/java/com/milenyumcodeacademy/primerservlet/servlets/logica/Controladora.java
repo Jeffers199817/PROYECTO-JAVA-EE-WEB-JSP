@@ -41,4 +41,9 @@ public class Controladora {
         
         controlPersis.eliminarUsuario(id);
     }
+
+    public void editarUsuario(Usuario usu) {
+        
+        controlPersis.editarUsuario(usu);
+    }
 }

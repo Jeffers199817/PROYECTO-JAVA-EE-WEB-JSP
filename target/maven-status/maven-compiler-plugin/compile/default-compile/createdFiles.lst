@@ -8,3 +8,4 @@ com\milenyumcodeacademy\primerservlet\servlets\logica\Controladora.class
 com\milenyumcodeacademy\primerservlet\servlets\persistencia\exceptions\NonexistentEntityException.class
 com\milenyumcodeacademy\primerservlet\servlets\persistencia\UsuarioJpaController.class
 com\milenyumcodeacademy\primerservlet\servlets\SvEliminar.class
+com\milenyumcodeacademy\primerservlet\servlets\SvEditar.class

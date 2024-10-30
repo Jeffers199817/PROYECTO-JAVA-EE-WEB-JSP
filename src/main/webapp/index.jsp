@@ -46,5 +46,19 @@
                  
              </form>
          </fieldset>
+         
+         
+         <h1>Editar Usuarios</h1><!-- comment -->
+         <h1>Edición de Usuario</h1><!-- comment -->
+         
+         <fieldset>
+             <form action="SvEditar" method="GET">
+                 
+                 <p><label>Id: </label> <input type="text" name="id"> </p>
+                 
+                 <button type="submit">Editar Usuario</button>
+             </form>
+         </fieldset>
+         
     </body>
 </html>
