@@ -26,11 +26,13 @@ public class ControladoraPersistencia {
    //Operación eliminar
    
    public void eliminarUsuario(int id){ 
+    
         try {
             usuJpa.destroy(id);
         } catch (NonexistentEntityException ex) {
             Logger.getLogger(ControladoraPersistencia.class.getName()).log(Level.SEVERE, null, ex);
         }
+       
    }
    
    //operacion editar

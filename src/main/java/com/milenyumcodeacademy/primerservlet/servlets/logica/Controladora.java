@@ -26,4 +26,19 @@ public class Controladora {
         
        return controlPersis.traerUsuarios();
     }
+
+    public void traerUsuario(int id) {
+        
+        controlPersis.traerUsuario(id);
+        
+  
+        
+        
+        
+    }
+
+    public void eliminarUsuario(int id) {
+        
+        controlPersis.eliminarUsuario(id);
+    }
 }

@@ -2,6 +2,7 @@ C:\Users\JEFFERSON ALQUINGA\Documents\NetBeansProjects\PrimerServlet\src\main\ja
 C:\Users\JEFFERSON ALQUINGA\Documents\NetBeansProjects\PrimerServlet\src\main\java\com\milenyumcodeacademy\primerservlet\servlets\persistencia\UsuarioJpaController.java
 C:\Users\JEFFERSON ALQUINGA\Documents\NetBeansProjects\PrimerServlet\src\main\java\com\milenyumcodeacademy\primerservlet\servlets\persistencia\ControladoraPersistencia.java
 C:\Users\JEFFERSON ALQUINGA\Documents\NetBeansProjects\PrimerServlet\src\main\java\com\milenyumcodeacademy\primerservlet\servlets\SvUsuarios.java
+C:\Users\JEFFERSON ALQUINGA\Documents\NetBeansProjects\PrimerServlet\src\main\java\com\milenyumcodeacademy\primerservlet\servlets\SvEliminar.java
 C:\Users\JEFFERSON ALQUINGA\Documents\NetBeansProjects\PrimerServlet\src\main\java\com\milenyumcodeacademy\primerservlet\servlets\logica\Usuario.java
 C:\Users\JEFFERSON ALQUINGA\Documents\NetBeansProjects\PrimerServlet\src\main\java\com\milenyumcodeacademy\primerservlet\servlets\persistencia\exceptions\NonexistentEntityException.java
 C:\Users\JEFFERSON ALQUINGA\Documents\NetBeansProjects\PrimerServlet\src\main\java\com\milenyumcodeacademy\primerservlet\servlets\persistencia\exceptions\IllegalOrphanException.java

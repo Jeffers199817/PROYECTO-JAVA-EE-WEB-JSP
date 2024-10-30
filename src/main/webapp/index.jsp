@@ -25,10 +25,26 @@
         
         <h1> Lista de usuario<h1> 
                 <h1> Mostrar lista de usuario<h1> 
-                        
+                        <fieldset>
                         <form action="SvUsuarios" method="GET" >
                             
                             <button type="submit" >Mostrar lista de Usuarios</button> 
                         </form>
+                            </fieldset>
+                        
+         <!-- ELIMINAR USUARIO -->
+         
+         <h1> Eliminación de Usuarios</h1><!-- comment -->
+         <h1> Eliminar usuario por ID</h1>
+         <fieldset>
+             <form action="SvEliminar" method="POST">
+                 <p>
+                     <label type="text" >Id</label><input type="text" name = "id">
+                 </p>
+                 <button type ="submit"> Eliminar Usuario</button>
+                 
+                 
+             </form>
+         </fieldset>
     </body>
 </html>

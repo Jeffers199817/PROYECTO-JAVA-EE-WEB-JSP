@@ -7,4 +7,4 @@ com\milenyumcodeacademy\primerservlet\servlets\persistencia\ControladoraPersiste
 com\milenyumcodeacademy\primerservlet\servlets\logica\Controladora.class
 com\milenyumcodeacademy\primerservlet\servlets\persistencia\exceptions\NonexistentEntityException.class
 com\milenyumcodeacademy\primerservlet\servlets\persistencia\UsuarioJpaController.class
-.netbeans_automatic_build
+com\milenyumcodeacademy\primerservlet\servlets\SvEliminar.class

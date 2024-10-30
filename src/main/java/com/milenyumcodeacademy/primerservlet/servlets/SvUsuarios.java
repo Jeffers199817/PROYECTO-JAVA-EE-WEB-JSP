@@ -73,9 +73,7 @@ public class SvUsuarios extends HttpServlet {
         
         response.sendRedirect("index.jsp");
         
-            
-        
-        
+
         
     }
 
