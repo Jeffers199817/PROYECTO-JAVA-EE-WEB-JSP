@@ -22,5 +22,13 @@
             <button type ="submit">Enviar</button>
             </fieldset>
         </form>
+        
+        <h1> Lista de usuario<h1> 
+                <h1> Mostrar lista de usuario<h1> 
+                        
+                        <form action="SvUsuarios" method="GET" >
+                            
+                            <button type="submit" >Mostrar lista de Usuarios</button> 
+                        </form>
     </body>
 </html>
