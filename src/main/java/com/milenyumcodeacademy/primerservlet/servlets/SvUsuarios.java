@@ -4,6 +4,7 @@
  */
 package com.milenyumcodeacademy.primerservlet.servlets;
 
+import com.milenyumcodeacademy.primerservlet.servlets.logica.Controladora;
 import com.milenyumcodeacademy.primerservlet.servlets.logica.Usuario;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -23,6 +24,7 @@ import javax.servlet.http.HttpSession;
 @WebServlet(name = "SvUsuarios", urlPatterns = {"/SvUsuarios"})
 public class SvUsuarios extends HttpServlet {
 
+    Controladora control = new Controladora();
   
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
@@ -35,16 +37,14 @@ public class SvUsuarios extends HttpServlet {
             throws ServletException, IOException {
         processRequest(request, response);
         
-        List<Usuario> listaUsuarios = new ArrayList<>();
+        List<Usuario> listaUsuarios = control.traerUsuarios();
         
-        listaUsuarios.add(new Usuario(1,"456456", "Jefferson","Alquinga","123"));
-        listaUsuarios.add(new Usuario(2,"23443", " Bernardo","Alquinga","23423"));
-        listaUsuarios.add(new Usuario(3,"345423","Tania", "Alquinga","34545"));
-        
-        
+        //Traemos la session de los jsp 
         HttpSession misesion = request.getSession();
+        //Asignamos en esta sessión la variable listaUsuarios
         misesion.setAttribute("listaUsuarios", listaUsuarios);
         
+        //redirecionamos a nuestro jsp 
         response.sendRedirect("mostrarUsuarios.jsp");
     }
 
@@ -60,10 +60,22 @@ public class SvUsuarios extends HttpServlet {
         String apellido = request.getParameter("apellido");
         String telefono = request.getParameter("telefono");
         
-        System.out.println("Dni: " + dni);
-        System.out.println("Nombre: " + nombre);
-        System.out.println("Apellido: " + apellido);
-        System.out.println("Teléfono: "+ telefono);
+        Usuario usu = new Usuario();
+        
+        
+        usu.setDni(dni);
+        usu.setNombre(nombre);
+        usu.setApellido(apellido);
+        usu.setTelefono(telefono);
+        
+            
+        control.crearUsuario(usu);
+        
+        response.sendRedirect("index.jsp");
+        
+            
+        
+        
         
     }
 
