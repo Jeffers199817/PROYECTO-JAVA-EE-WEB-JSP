@@ -37,9 +37,9 @@ public class SvUsuarios extends HttpServlet {
         
         List<Usuario> listaUsuarios = new ArrayList<>();
         
-        listaUsuarios.add(new Usuario("456456", "Jefferson","Alquinga","123"));
-        listaUsuarios.add(new Usuario("23443", " Bernardo","Alquinga","23423"));
-        listaUsuarios.add(new Usuario("345423","Tania", "Alquinga","34545"));
+        listaUsuarios.add(new Usuario(1,"456456", "Jefferson","Alquinga","123"));
+        listaUsuarios.add(new Usuario(2,"23443", " Bernardo","Alquinga","23423"));
+        listaUsuarios.add(new Usuario(3,"345423","Tania", "Alquinga","34545"));
         
         
         HttpSession misesion = request.getSession();
