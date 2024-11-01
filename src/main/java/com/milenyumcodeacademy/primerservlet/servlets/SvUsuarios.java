@@ -72,7 +72,7 @@ public class SvUsuarios extends HttpServlet {
         control.crearUsuario(usu);
         
         response.sendRedirect("index.jsp");
-        
+        System.out.println("Proyecto finalizado ");
 
         
     }

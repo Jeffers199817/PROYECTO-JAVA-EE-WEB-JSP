@@ -74,6 +74,7 @@ public class SvEditar extends HttpServlet {
         
             
         control.editarUsuario(usu);
+        System.out.println("Proyecto finalizado");
         
         response.sendRedirect("index.jsp");
         
